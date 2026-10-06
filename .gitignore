@@ -1,0 +1,12 @@
+# Input and intermediate data: WSE quotations cannot be redistributed
+data/*
+!data/.gitkeep
+
+# Large or event-level outputs, reproduced locally
+results/**/*.parquet
+results/filter_events.csv
+results/diagnostics_trades.csv
+
+__pycache__/
+*.pyc
+.DS_Store
